@@ -44,3 +44,6 @@ align-items: center;
 .pos-abt{
     position: absolute;
 }
+.margin-btm{
+    margin-bottom: 2rem;
+}
