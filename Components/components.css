@@ -1,4 +1,5 @@
 @import url(./avatar.css);
+@import url(./badge.css);
 @import url(./fontcss/all.min.css);
 @import url(./fontcss/fontawesome.min.css);
 
@@ -42,4 +43,7 @@ align-items: center;
 }
 .pos-abt{
     position: absolute;
+}
+.margin-btm{
+    margin-bottom: 2rem;
 }
