@@ -9,9 +9,12 @@
     background-color: var(--black-solid);
 }
 .avatar-logo h1{ 
+    background-color: var(--black-solid);
+
     color: var(--doc-txt-color);
 }
  .nav-li,.nav-a,.nav-button{
+    background-color: var(--black-solid);
     font-size: 1rem;
     color: var(--nav-color);
     text-decoration: none;
@@ -25,6 +28,7 @@
     background-color: var(--black-solid);    
 }
 .avatar-logo{
+                                                           
     display: flex;
     align-items: center;
     border-radius: 50%;
@@ -34,6 +38,7 @@
     font-size: 1.5rem;
 }
 .avatar-logo img{
+                                            
     border-radius: 50%;
     width: 150%;    
 }

@@ -10,6 +10,7 @@
     --red-solid :red;
     --blueviolet-solid : blueviolet;
     --yellow-solid : yellow;
+    --gray-color : grey;
     --yellow-shade : rgb(252, 234, 74);
     --black-solid : black;
     --alert-color:#34495e;
@@ -19,10 +20,12 @@
     --snackbar-bg-color : #333;
     --card-shadow-color : rgb(189, 185, 185);
     --card-btn-color : #0077FF;
+    --card-btn-bg-color : #efefef;
     --card-text-color :#7F8C9B;
     --card-tag-color : #788697;
     --card-tag-border-color  : #E5EAED;
     --card-border-color : #BACDD8;
+    --btn-bg-color : rgb(250, 232, 67);
 }
 .flex-center{
 display: flex;
@@ -33,4 +36,10 @@ align-items: center;
 display: flex;
 justify-content: space-between;
 align-items: center;
+}
+.pos-rel{
+    position: relative;
+}
+.pos-abt{
+    position: absolute;
 }

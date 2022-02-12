@@ -2,9 +2,23 @@
 :root{
     --doc-txt-color :rgb(134, 190, 223);
 }
+*{
+    background-color: white;
+}
+
+hr{
+    padding: 0.5rem;
+    background-color: rgb(155, 11, 11);
+
+}
+.logo-color{
+background-color: black;
+}
+
 header{
     position: sticky;
     top: 0rem;  
+    z-index: 9999;
 }
 .doc-container
 {   display: flex;
@@ -12,15 +26,12 @@ header{
     margin-right: 4rem;
 }
 .aside-li,.aside-a,.aside-ul
-{   color: var(--white);
+{                                           
     font-size: 2rem;
     text-decoration: none;
     list-style: none;
     text-align: center;
     width: 100%;
-}
-.aside-li{
-    border: 2px solid var(--white);
 }
 aside{
     display: flex;
@@ -43,9 +54,27 @@ main{
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
+    gap: 1rem;
 }
-.doc-avatar p {
+.doc-label{
     font-size: 1.5rem;
-    padding-bottom: 2rem;
-    color: var(--doc-txt-color);
+    padding-bottom: 1rem;                                                
 }
+.doc-badge{  
+    flex-direction: column;                                                        
+}
+
+.doc-icon-badge{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;                                                      
+}
+.doc-badge-avatar{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; 
+}
+
+
+
+
