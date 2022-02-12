@@ -1,0 +1,62 @@
+.btn{
+    box-sizing: border-box;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.primary{
+    color: var(--white);
+    background-color: var(--blue-solid); 
+}
+.secondary{
+    background-color: var(--blueviolet-solid);
+    color:var(--white) ;
+}
+.btn-shop{
+    background-color: var(--btn-bg-color );
+}
+.btn-icon{
+    font-size: 1.5rem;
+    padding-right: 4px ;
+}
+.btn-icon i{
+    background-color: var(--btn-bg-color );
+}
+.btn-link{
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: var(--blue-solid);
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.btn-float{
+    width: 4rem;
+    height: 4rem;
+    border: none;
+   
+    background-color: var(--blue-solid);
+    color: var(--white);
+    border-radius: 50%;
+    font-size: 3rem;
+    box-shadow: 4px 4px 4px var(--gray-color);
+}
+.btn-outline-primary{
+    border: 2px solid var(--blue-solid);
+    color: var(--blue-solid);
+    background-color: var(--white);
+}
+.btn-outline-secondary{
+    border: 2px solid var(--blueviolet-solid);
+    color: var(--blueviolet-solid);
+    background-color: var(--white);
+}
+.btn-outline-primary:hover{
+background-color: var(--blue-solid);
+color: var(--white);
+}
+.btn-outline-secondary:hover{
+background-color: var(--blueviolet-solid) ;
+color: var(--white);
+}
