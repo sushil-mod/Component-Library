@@ -3,11 +3,7 @@
 @import url(./fontcss/fontawesome.min.css);
 
 :root{
-
-    /* avatar */
     --avatar-bg-color: rgb(168, 168, 206);
-
-    /* badge */
     --blue-solid : blue;
     --green-solid : green;
     --white : white;
@@ -16,20 +12,11 @@
     --yellow-solid : yellow;
     --yellow-shade : rgb(252, 234, 74);
     --black-solid : black;
-    /* alert */
-
     --alert-color:#34495e;
     --alert-bg-color:#fff;
-
-    /* input */
     --input-border:#f0f0f0;
-
-    /* snackbar */
-
     --snackbar-color : #747679;  
     --snackbar-bg-color : #333;
-    
-    /* card  */
     --card-shadow-color : rgb(189, 185, 185);
     --card-btn-color : #0077FF;
     --card-text-color :#7F8C9B;
@@ -37,8 +24,6 @@
     --card-tag-border-color  : #E5EAED;
     --card-border-color : #BACDD8;
 }
-
-
 .flex-center{
 display: flex;
 justify-content: center;

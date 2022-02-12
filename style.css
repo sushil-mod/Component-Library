@@ -1,32 +1,29 @@
-*{
-    box-sizing: border-box;
+@import url(./Documentation/document.css);
+:root{
+    --black-solid:black;
+    --nav-color : #edf0f1;
+}
+*{ box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: var(--black-solid);
 }
-
 .avatar-logo h1{ 
-    color: rgb(134, 190, 223);
+    color: var(--doc-txt-color);
 }
-
-
  .nav-li,.nav-a,.nav-button{
     font-size: 1rem;
-    color: #edf0f1;
+    color: var(--nav-color);
     text-decoration: none;
-
 }
-
 .nav-header{
     display: flex;
 
     justify-content: space-between;
     align-items: center;
     height: 6rem ;
-    background-color: rgb(0, 0, 0);
-    
+    background-color: var(--black-solid);    
 }
-
 .avatar-logo{
     display: flex;
     align-items: center;
@@ -34,56 +31,39 @@
     width: 4rem;
     height: 4rem;
     margin-left: 2rem;
-
     font-size: 1.5rem;
-
 }
-
 .avatar-logo img{
-
     border-radius: 50%;
-    width: 150%;
-    
+    width: 150%;    
 }
-
-
-
 .nav__links{
     list-style: none;
 }
-
 .nav__links li{
     display: inline-block;
     padding: 0rem 1.25rem;
-
 }
-
 .nav__links li a{
     font-size: 1.5rem;
 }
-
 .nav__links li a:hover{
     color: green;
 }
-
-
-
 .main-container{
-    border-top: 2px solid white;
+    border-top: 2px solid var(--white);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .content-container{
     text-align: center;
-    color: white;
+    color: var(--white);
     margin-top: 1rem;
-    border: 2px solid white;
+    border: 2px solid var(--white);
 }
-
 .btn-icon{
     background-color: transparent;
-    /* color: white; */
     font-size: 2rem;
     padding-right: 2rem;
 }
