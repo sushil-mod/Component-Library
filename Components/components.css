@@ -1,0 +1,36 @@
+@import url(./avatar.css);
+@import url(./fontcss/all.min.css);
+@import url(./fontcss/fontawesome.min.css);
+
+:root{
+    --avatar-bg-color: rgb(168, 168, 206);
+    --blue-solid : blue;
+    --green-solid : green;
+    --white : white;
+    --red-solid :red;
+    --blueviolet-solid : blueviolet;
+    --yellow-solid : yellow;
+    --yellow-shade : rgb(252, 234, 74);
+    --black-solid : black;
+    --alert-color:#34495e;
+    --alert-bg-color:#fff;
+    --input-border:#f0f0f0;
+    --snackbar-color : #747679;  
+    --snackbar-bg-color : #333;
+    --card-shadow-color : rgb(189, 185, 185);
+    --card-btn-color : #0077FF;
+    --card-text-color :#7F8C9B;
+    --card-tag-color : #788697;
+    --card-tag-border-color  : #E5EAED;
+    --card-border-color : #BACDD8;
+}
+.flex-center{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.flex-space-btw{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}

@@ -1,56 +1,51 @@
+@import url(../Components/components.css);
+:root{
+    --doc-txt-color :rgb(134, 190, 223);
+}
 header{
     position: sticky;
-    top: 0rem;
-    
+    top: 0rem;  
 }
-
-.doc-container{
-    display: flex;
+.doc-container
+{   display: flex;
     margin-left: 4rem;
     margin-right: 4rem;
 }
-
-.aside-li,.aside-a,.aside-ul{
-    /* background-color: tomato; */
-    color: white;
+.aside-li,.aside-a,.aside-ul
+{   color: var(--white);
     font-size: 2rem;
     text-decoration: none;
     list-style: none;
     text-align: center;
     width: 100%;
-    
 }
-
 .aside-li{
-    border: 2px solid white;
+    border: 2px solid var(--white);
 }
-
 aside{
     display: flex;
     justify-content: center;
-
-
-
     position: sticky;
     top: 6rem ;
-    /* background-color: tomato; */
-    
     width: 15% ;
     height: 20rem ;
-
-    /* padding: ;
-    margin-bottom: ;  */
 }
-
-main{
-    color: white;
-    background-color: turquoise;
-    flex-grow: 1;
+main{  
+    width: 100%;
+    height: auto;
 }
-.content{
-    
-    background: rgb(200, 200, 200);
-    height: 300px;
-    padding: 20px;
-    margin-bottom: 20px;
+.doc-header{
+    padding-left: 2rem;
+    font-size: 2.5rem;
+    color: var(--doc-txt-color); 
+}
+.doc-avatar{  
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.doc-avatar p {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    color: var(--doc-txt-color);
 }
