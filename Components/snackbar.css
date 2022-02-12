@@ -1,16 +1,15 @@
 .snackbar{
     padding: 1rem;
     width: 30rem;
+    background-color: var(--snackbar-bg-color);
     border-radius: 6px;
     box-shadow: 4px 8px 1rem var(--snackbar-color); 
     color: var(--white);
 }
-.snackbar-bg-color{
-    background-color: var(--snackbar-bg-color);
-}
 .snackbar-btn{ 
     border-style: none;
     font-weight: 700;
+    background-color: var(--snackbar-bg-color);
     height: 1.5rem;
     padding: 0px 10px;
     cursor: pointer;
@@ -23,6 +22,7 @@
 .snackbar-icon-btn{
     border-style: none;
     font-weight: 700;
+    background-color: var(--snackbar-bg-color);
     height: 1.5rem;
     width: 1.5rem;
     border-radius: 50%;

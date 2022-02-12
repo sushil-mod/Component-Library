@@ -6,7 +6,8 @@
 *{ box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: var(--black-solid);
+    
+    /* background-color: var(--black-solid); */
 }
 .avatar-logo h1{ 
     background-color: var(--black-solid);

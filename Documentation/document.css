@@ -2,8 +2,9 @@
 :root{
     --doc-txt-color :rgb(134, 190, 223);
 }
+
 *{
-    background-color: white;
+    /* background: white; */
 }
 
 hr{
