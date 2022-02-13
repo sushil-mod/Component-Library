@@ -2,10 +2,6 @@
 :root{
     --doc-txt-color :rgb(134, 190, 223);
 }
-*{
-    background-color: white;
-}
-
 hr{
     padding: 0.5rem;
     background-color: rgb(155, 11, 11);
