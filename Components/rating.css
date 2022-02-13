@@ -1,0 +1,16 @@
+.star-icon{
+    color:var(--yellow-solid);
+    font-size: 30px;
+    font-weight: 800;
+    text-align:center;
+}
+.star-icon input{
+display: none;
+}
+.star-icon input + label{
+    font-size: 60px;
+    cursor: pointer;
+}
+.rating-css input:checked + label ~ label{
+    color:var(--gray-color) ;
+}
