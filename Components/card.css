@@ -1,0 +1,93 @@
+.card-img{
+    width: 100%;
+    border-radius: 1rem;
+    height: 13rem ;
+    object-fit: cover;
+}   
+.card{
+    padding: 8px;
+    border-radius: 1rem;
+    border: 1px solid var(--card-border-color);
+    max-width: 250px;
+}
+.card-tag{
+    padding: 4px 8px;
+    border: 1px solid var(--card-tag-border-color );
+    border-radius: 50px;
+    font-size: 12px;
+    color: var(--card-tag-color);
+}
+.card-header{
+    font-size: 24px;
+    margin-top: 16px;   
+}
+.card-text{
+    font-size: 14px;
+    color: var(--card-text-color);
+    line-height: 150%;
+}
+.card-btn{
+    display: inline-block;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background-color: var(--card-btn-bg-color);
+    color: var(--card-btn-color);
+ }
+/* card with text over image  */
+.card-absolute{
+    position: absolute;
+    top: 10rem;
+    color:var(--white);
+    padding-left: 1rem;
+    background-color: transparent;
+   } 
+/* horizontal card */
+.card-horizontal{
+    max-width: 500px;
+    display: grid;
+    grid-template-areas: 'col1 col2';  
+}
+.card-btn-horizontal{
+    grid-column: 1/4;
+}
+.card-pd-left{
+    padding-left: 1rem;
+} 
+.img-height{
+    height: auto;
+}
+ /* card with badge */
+.card-pos-rel{
+    position: relative;  
+}
+.card-badge{
+    box-sizing: border-box;
+    background: var(--yellow-solid);
+    padding: 0.2rem;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 1rem;
+}
+ /* card with dismiss  */
+ .dismiss{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    padding: 0rem;
+    color: var(--white);
+    background: transparent;
+    font-size: 1.2rem;
+    border: none; 
+ } 
+ .dismiss i{
+    background-color: transparent;
+ }
+ .dismiss:hover{
+    color: var(--red-solid);
+ }
+ /* card with shadow  */
+ .card-shadow{
+    box-shadow:4px 4px 4px var(--card-shadow-color) ;
+ }
