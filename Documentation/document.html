@@ -33,11 +33,11 @@
         <aside>
             <ul class="aside-ul">
                 <li class="aside-li"><a href="#avatar" class="aside-a">Avatar</a></li>
-                <li class="aside-li"><a href="#snackbar" class="aside-a">Badge</a></li>
+                <li class="aside-li"><a href="" class="aside-a">Badge</a></li>
                 <li class="aside-li"><a href="" class="aside-a">Alert</a></li>
                 <li class="aside-li"><a href="" class="aside-a">Button</a></li>
-                <li class="aside-li"><a href="" class="aside-a">Snackbar</a></li>
-                <li class="aside-li"><a href="" class="aside-a">Card</a></li>
+                <li class="aside-li"><a href="#snackbar" class="aside-a">Snackbar</a></li>
+                <li class="aside-li"><a href="#card" class="aside-a">Card</a></li>
                 <li class="aside-li"><a href="" class="aside-a">Input</a></li>
                 <li class="aside-li"><a href="" class="aside-a">Rating</a></li>
                 <li class="aside-li"><a href="" class="aside-a">Image</a></li>
@@ -251,6 +251,148 @@
                         </div>
 
                         <iframe src="https://www.thiscodeworks.com/embed/6207b2783d90130015398c1a" style="width: 100%; height: 177px;" frameborder="0"></iframe>
+                    </div>
+
+
+            <p id="card" class="doc-header">Cards</p>  
+                     
+                    <div class="doc-avatar flex-center">
+
+                        <p class="doc-label">Default card</p> 
+
+                        <!-- default-card  -->
+                        <div class="card">
+                            <img class="card-img" src="https://images.unsplash.com/photo-1536323760109-ca8c07450053" alt="Lago di Braies">
+                            <div class="card-details">
+                              <span class="card-tag">Nature</span>
+                              <span class="card-tag">Lake</span>
+                              <div class="card-header">Lago di Braies</div>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim
+                                sed diam
+                                pharetra
+                                vitae ipsum odio.</p>
+                              <button class="card-btn">Read more</button> <button class="card-btn">Read more</button>
+                            </div>
+                        </div>
+                        <iframe src="https://www.thiscodeworks.com/embed/6207ca133d90130015398c28" style="width: 100%; height: 255px;" frameborder="0"></iframe>
+
+                        <p class="doc-label">Card with text over image</p>
+                        <!-- text-over-card  -->
+                        <div class="card card-pos-rel">
+                            <img class="card-img " src="https://images.unsplash.com/photo-1536323760109-ca8c07450053" alt="Lago di Braies">
+                            <div class="card-details">
+                              <span class="card-tag">Nature</span>
+                              <span class="card-tag">Lake</span>
+                              <div class="card-header card-absolute">Lago di Braies</div>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim
+                                sed diam
+                                pharetra
+                                vitae ipsum odio.</p>
+                              <button class="card-btn">Read more</button> <button class="card-btn">Read more</button>
+                            </div>
+                        </div>
+                        <iframe src="https://www.thiscodeworks.com/embed/6207ca453d90130015398c29" style="width: 100%; height: 255px;" frameborder="0"></iframe>
+
+
+                        <p class="doc-label">Horizontal card</p>
+                        <!-- Horizontal card  -->  
+                          <div class="card card-horizontal">
+                            <img class="card-img img-height" src="https://images.unsplash.com/photo-1536323760109-ca8c07450053"
+                              alt="Lago di Braies">
+                            <div class="card-details card-pd-left">
+                              <div class="card-header">Lago di Braies</div>
+                              <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim
+                                sed diam
+                                pharetra vitae ipsum odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi
+                                dignissim sed diam
+                                pharetra vitae ipsum odio</p>
+                              <button class="card-btn card-btn-horizontal">Read more</button> <button class="card-btn card-btn-horizontal">Read
+                                more</button>
+                            </div>
+                          </div>
+                        <iframe src="https://www.thiscodeworks.com/embed/6207cab23d90130015398c2a" style="width: 100%; height: 255px;" frameborder="0"></iframe>
+
+
+                        <p class="doc-label">Card with Badge and Dismiss</p>
+                        <!-- Card with Badge and Dismiss  --> 
+                        <div class=" flex-center doc-badge-avatar">
+                            <div class="card card-pos-rel">
+                            <img class="card-img" src="https://images.unsplash.com/photo-1536323760109-ca8c07450053" alt="Lago di Braies">
+                            <span class="card-badge">Trending</span>
+                        
+                            <div class="card-details">
+                        
+                        
+                              <span class="card-tag">Nature</span>
+                        
+                              <span class="card-tag">Lake</span>
+                        
+                        
+                              <div class="card-header">Lago di Braies</div>
+                        
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim
+                                sed diam
+                                pharetra
+                                vitae ipsum odio.</p>
+                        
+                              <button class="card-btn">Read more</button> <button class="card-btn">Read more</button>
+                            </div>
+                            </div>
+
+                            <div class="card card-pos-rel">
+                            <img class="card-img " src="https://images.unsplash.com/photo-1536323760109-ca8c07450053" alt="Lago di Braies">
+                            <button class="dismiss"><i class="far fa-times-circle "></i></button>
+                        
+                            <div class="card-details">
+                        
+                        
+                              <span class="card-tag">Nature</span>
+                        
+                              <span class="card-tag">Lake</span>
+                        
+                        
+                              <div class="card-header">Lago di Braies</div>
+                        
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim
+                                sed diam
+                                pharetra
+                                vitae ipsum odio.</p>
+                        
+                              <button class="card-btn">Read more</button> <button class="card-btn">Read more</button>
+                            </div>
+                        
+                            </div>
+                        </div> 
+                        <iframe src="https://www.thiscodeworks.com/embed/6207cbed3d90130015398c2b" style="width: 100%; height: 250px;" frameborder="0"></iframe>
+
+
+                        <p class="doc-label">Card with Text and Shadow</p>
+                        <!-- Card with Text and Shadow  --> 
+                        <div class=" flex-center doc-badge-avatar">
+                            <div class="card">
+                                <div class="card-details">
+                                <div class="card-header">Lago di Braies</div>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim
+                                    sed diam pharetra vitae ipsum odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim
+                                    sed diam pharetra vitae ipsum odio.</p>
+                                <button class="card-btn">Read more</button> <button class="card-btn">Read more</button>
+                                </div>
+                            </div>
+                            
+                            <div class="card card-shadow">
+                                <img class="card-img" src="https://images.unsplash.com/photo-1536323760109-ca8c07450053" alt="Lago di Braies">
+                                <div class="card-details">
+                                <span class="card-tag">Nature</span>
+                                <span class="card-tag">Lake</span>
+                                <div class="card-header">Lago di Braies</div>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales morbi dignissim
+                                    sed diam pharetra vitae ipsum odio.</p>
+                                <button class="card-btn">Read more</button> <button class="card-btn">Read more</button>
+                                </div>
+                            </div>  
+                        </div>
+                        <iframe src="https://www.thiscodeworks.com/embed/6207cc9b3d90130015398c2c" style="width: 100%; height: 250px;" frameborder="0"></iframe>
+
                     </div>
 
         </main>
