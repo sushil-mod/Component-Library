@@ -18,12 +18,6 @@
     width: 100%;
     height: 100%;
 }
-.avatar-text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
 .avatar-text-normal{
     width: 4rem;
     height: 4rem ;
