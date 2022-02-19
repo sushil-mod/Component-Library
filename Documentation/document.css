@@ -118,7 +118,7 @@ main{
 
 .component-show{
     gap: 2rem;  
-    background-color: white;
+    background-color: var(--white);
     padding: 2rem 4rem 2rem 4rem;
 }
 
