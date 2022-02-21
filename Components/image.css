@@ -3,5 +3,7 @@
     height: auto; 
 }
 .round-image{
+    width: 30rem;
+    min-height: 30rem;
     border-radius: 50%;
 }
