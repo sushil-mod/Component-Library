@@ -42,6 +42,8 @@
         <li class="aside-li"><a href="#rating" class="aside-a">Rating</a></li>
         <li class="aside-li"><a href="#image" class="aside-a">Image</a></li>
         <li class="aside-li"><a href="#navbar" class="aside-a">Navigation</a></li>
+        <li class="aside-li"><a href="#modal" class="aside-a">Modal</a></li>
+        <li class="aside-li"><a href="#text-util" class="aside-a">Text Utilities</a></li>
 
       </ul>
     </aside>
@@ -583,11 +585,10 @@
           </div>
           <iframe src="https://www.thiscodeworks.com/embed/6207d8293d90130015398c37" style="width: 70%; height: 200px;"
             frameborder="0"></iframe>
-
         </div>
       </div>
 
-
+      <!-- Navigation -->
       <div class="component-div">
         <p id="navbar" class="doc-header">Navigation</p>
         <div class="doc-avatar flex-center">
@@ -624,26 +625,65 @@
 
       </div>
 
+      <!-- Modal  -->
+      <div class="component-div">
+        <p id="modal" class="doc-header">Modal</p>
+        <div class="doc-avatar flex-center">
+          <p class="doc-label">Modal</p>
+            <button id="btn-show" class=" btn cursor-point">show</button>
+            <div class="component-show flex-center pos-rel component-size ">
+                      <div id="modal-component" class="modal"> 
+                                <div class="modal-info"> 
+                                    <div ><h1>Modal</h1></div>
+                                    <hr>
+                                    <div class="flex-grow1">modal description :-click on close to close modal </div>
+                                    <hr>
+                                    <div >
+                                      <button id="btn-close" class="modal-btn cursor-point">close</button>
+                                    </div>
+                                </div>
+                      </div> 
+                      <p>click on show button to show modal here </p>
+            </div>
+            <p class="doc-label">Modal HTML</p>
+            <iframe src="https://www.thiscodeworks.com/embed/62443250aa27060015d19b00" style="width: 100%; height: 255px;" frameborder="0"></iframe>
+            <p class="doc-label">Modal JS</p>
+            <iframe src="https://www.thiscodeworks.com/embed/62443294aa27060015d19b01" style="width: 100%; height: 203px;" frameborder="0"></iframe>
+        </div>
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <!-- Text Utilities -->
+      <div class="component-div">
+        <p id="text-util" class="doc-header">Text Utilities</p>
+        <div class="doc-avatar flex-center">
+          <p class="doc-label">Text Utilities</p>
+          <div class="component-show  flex-col">
+              <div class="flex-center margin-btm text-gap ">
+                <div class="heading-sm">heading small </div>
+                <div class="heading-md">heading medium </div>
+                <div class="heading-lg">heading large </div>
+              </div>
+              <div class="margin-btm center-text" >center text</div>
+              <div class="margin-btm grey-text" >grey text</div>
+              <div class="margin-btm small-text" >small text</div>
+          </div>
+          <iframe src="https://www.thiscodeworks.com/embed/62443314aa27060015d19b02" style="width: 100%; height: 190px;" frameborder="0"></iframe>     
+        </div>
+      </div>
     </main>
-
-
-
   </div>
+  <script>
+    // script for modal component
+    var modal =document.getElementById("modal-component");
+    var btnClose = document.getElementById("btn-close");
+    var btnShow = document.getElementById("btn-show");
+    btnShow.onclick = function(){
+      modal.style.display = "block";
+    }
+    btnClose.onclick = function(){
+      modal.style.display = "none";
+    }
+  </script>
 
 </body>
 
