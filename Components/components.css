@@ -8,6 +8,8 @@
 @import url(./rating.css);
 @import url(./image.css);
 @import url(./nav.css);
+@import url(./text-util.css);
+@import url(./modal.css);
 @import url(./fontcss/all.min.css);
 @import url(./fontcss/fontawesome.min.css);
 
@@ -57,4 +59,7 @@ align-items: center;
 }
 .margin-btm{
     margin-bottom: 2rem;
+}
+.flex-grow1{
+    flex-grow: 1;
 }
