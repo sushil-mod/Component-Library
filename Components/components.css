@@ -10,6 +10,7 @@
 @import url(./nav.css);
 @import url(./text-util.css);
 @import url(./modal.css);
+@import url(./grid.css);
 @import url(./fontcss/all.min.css);
 @import url(./fontcss/fontawesome.min.css);
 
@@ -62,4 +63,7 @@ align-items: center;
 }
 .flex-grow1{
     flex-grow: 1;
+}
+.list-none{
+    list-style: none;
 }
