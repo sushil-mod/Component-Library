@@ -16,7 +16,7 @@
     text-align: center;
 }
 .grey-text{
-    color:grey;
+    color:var(--gray-color );
 }
 .small-text{
     font-size: small;
