@@ -1,0 +1,26 @@
+
+
+
+
+.heading-sm{
+    font-size : 1rem;
+}
+.heading-md{
+    font-size : 1.5rem;
+}
+.heading-lg{
+    font-size : 2rem;
+}
+
+.center-text{
+    text-align: center;
+}
+.grey-text{
+    color:grey;
+}
+.small-text{
+    font-size: small;
+}
+.text-gap {
+    gap:1rem;
+}

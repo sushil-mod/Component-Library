@@ -1,0 +1,22 @@
+.component-size{
+    height:15rem; 
+    width : 15rem ;
+}
+.modal{
+    background-color: white; 
+    position: absolute; 
+    box-shadow:4px 4px 4px var(--card-shadow-color) ; 
+     display: none;
+}
+.modal-info{
+    display: flex; 
+    flex-direction: column;
+    height: 10rem;
+    width: 10rem;
+}
+.modal-btn {
+    background-color: transparent;
+}
+.cursor-point{
+    cursor: pointer;
+}
