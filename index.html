@@ -46,6 +46,8 @@
         <li class="aside-li"><a href="#text-util" class="aside-a">Text Utilities</a></li>
         <li class="aside-li"><a href="#list" class="aside-a">List</a></li>
         <li class="aside-li"><a href="#grid" class="aside-a">Grids</a></li>
+        <li class="aside-li"><a href="#mobile" class="aside-a">Navigation (mobile)</a></li>
+        <li class="aside-li"><a href="#slider" class="aside-a">slider</a></li>
 
       </ul>
     </aside>
@@ -744,6 +746,56 @@
           <iframe src="https://www.thiscodeworks.com/embed/6244568aaa27060015d19b2c" style="width: 100%; height: 190px;" frameborder="0"></iframe>
         </div>
        </div>
+
+       <!-- Navigation (Mobile ) -->
+       <div class="component-div">
+        <p id="mobile" class="doc-header">Navigation (Mobile)</p>
+        <div class="doc-avatar flex-center">
+          <p class="doc-label">Navbar</p>
+          <p >you can toggle ham icon on nav to see links</p>
+          <div class="component-show flex-center component-nav-size">
+            <div class="mobile-nav">
+              <div class="mobile-nav-container flex-space-btw">
+                <a class="mobile-nav-link flex-center" href="">
+                  <i class="fas fa-jedi mobile-nav-logo"></i>
+                  <span class="mobile-nav-title" >Jedi</span>
+                </a>
+                <div class="mobile-nav-icon flex-center">
+                  <button id="nav-ham" onclick="myFunction()" class="nav-ham-btn">  <i class="fas fa-bars "></i> </button>
+                </div>
+              </div>
+              <div id="links">
+                <ul class="mobile-nav-list" >
+                  <li class="list-border" >Home</li>
+                  <li class="list-border" >About</li>
+                  <li class="list-border" >Services</li>
+                </ul>
+              </div>
+            </div> 
+          </div>
+          <p class="doc-label">Navbar HTML</p>
+            <iframe src="https://www.thiscodeworks.com/embed/624ae4a0cbb8c90015cea957" style="width: 100%; height: 333px;" frameborder="0"></iframe>
+            <p class="doc-label">Navbaar Js</p>
+            <iframe src="https://www.thiscodeworks.com/embed/624ae4cacbb8c90015cea958" style="width: 100%; height: 190px;" frameborder="0"></iframe>
+        </div>
+       </div>
+
+        <!-- slider -->
+        <div class="component-div">
+          <p id="slider" class="doc-header">Slider</p>
+          <div class="doc-avatar flex-center">
+            <p class="doc-label">Slider Input</p>
+            <div class="component-show flex-center ">
+                <p>Simple slider</p>
+                <input type="range" >
+                <p>Customize slider</p>
+                <input type="range" class="slider">
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/624ae8becbb8c90015cea95d" style="width: 100%; height: 125px;" frameborder="0"></iframe>
+          </div>
+         </div>
+
+
     </main>
   </div>
   <script>
@@ -757,6 +809,15 @@
     btnClose.onclick = function(){
       modal.style.display = "none";
     }
+    // script for mobile-nav component 
+    function myFunction() {
+    var links = document.getElementById("links");
+    if(links.style.display === "block"){
+        links.style.display ="none";
+    }else{
+        links.style.display = "block";
+    }
+}
   </script>
 
 </body>
