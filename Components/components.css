@@ -11,6 +11,8 @@
 @import url(./text-util.css);
 @import url(./modal.css);
 @import url(./grid.css);
+@import url(./mobile-nav.css);
+@import url(./slider.css);
 @import url(./fontcss/all.min.css);
 @import url(./fontcss/fontawesome.min.css);
 
